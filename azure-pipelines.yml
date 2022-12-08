@@ -10,7 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '/GamingSystemsA3.sln'
+  solution: 'GamingSystemsA3.sln'
   buildPlatform: 'x86|x64|ARM'
   buildConfiguration: 'Release'
   appxPackageDir: '$(build.artifactStagingDirectory)\AppxPackages\\'
